@@ -1,0 +1,6 @@
+f = open("input")
+a, b = map(int, f.readline().split())
+f.close()
+f = open("output", 'w')
+f.write(str(a+b**2))
+f.close()
